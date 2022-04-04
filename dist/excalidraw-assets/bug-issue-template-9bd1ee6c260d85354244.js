@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkExcalidraw=self.webpackChunkExcalidraw||[]).push([[375],{4759:(n,e,c)=>{c.r(e),c.d(e,{default:()=>t});const t=function(n){return"\n### Scene content\n\n```\nPaste scene content here\n```\n\n### Sentry Error ID\n\n".concat(n,"\n")}}}]);

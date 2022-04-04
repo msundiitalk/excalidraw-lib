@@ -1,0 +1,13 @@
+import { ExcalidrawElement, ExcalidrawTextElement, ExcalidrawLinearElement, ExcalidrawBindableElement, ExcalidrawGenericElement, ExcalidrawFreeDrawElement, InitializedExcalidrawImageElement, ExcalidrawImageElement } from "./types";
+export declare const isGenericElement: (element: ExcalidrawElement | null) => element is ExcalidrawGenericElement;
+export declare const isInitializedImageElement: (element: ExcalidrawElement | null) => element is InitializedExcalidrawImageElement;
+export declare const isImageElement: (element: ExcalidrawElement | null) => element is ExcalidrawImageElement;
+export declare const isTextElement: (element: ExcalidrawElement | null) => element is ExcalidrawTextElement;
+export declare const isFreeDrawElement: (element?: ExcalidrawElement | null | undefined) => element is ExcalidrawFreeDrawElement;
+export declare const isFreeDrawElementType: (elementType: ExcalidrawElement["type"]) => boolean;
+export declare const isLinearElement: (element?: ExcalidrawElement | null | undefined) => element is ExcalidrawLinearElement;
+export declare const isLinearElementType: (elementType: ExcalidrawElement["type"]) => boolean;
+export declare const isBindingElement: (element?: ExcalidrawElement | null | undefined) => element is ExcalidrawLinearElement;
+export declare const isBindingElementType: (elementType: ExcalidrawElement["type"]) => boolean;
+export declare const isBindableElement: (element: ExcalidrawElement | null) => element is ExcalidrawBindableElement;
+export declare const isExcalidrawElement: (element: any) => boolean;
